@@ -1,0 +1,11 @@
+.home {
+    position: relative;
+    margin: 3%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home div {
+    flex-grow: 100;
+}

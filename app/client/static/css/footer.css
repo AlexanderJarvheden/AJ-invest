@@ -10,6 +10,7 @@
     height: 10%;
     width: 100%;
     background: purple;
+    padding-left: 10%;
 }
 
 
@@ -18,4 +19,37 @@
     color: whitesmoke;
     outline: 0px;
     filter: drop-shadow(0 0 1px purple);
+}
+
+.footer .container {
+    border: 0.5px solid black;
+    flex-direction: column;
+    background-color: blue;
+    height: 20px;
+    width: 25px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.footer .column {
+    position: absolute;
+    height: 99.9%;
+    width: 15%;
+    left: 0;
+    right: 38%;
+    margin: auto;
+    border: 0px solid black;
+}
+
+.footer .row {
+    position: absolute;
+    width: 99.9%;
+    height: 20%;
+    top: 0;
+    bottom: 10%;
+    margin: auto;
 }
